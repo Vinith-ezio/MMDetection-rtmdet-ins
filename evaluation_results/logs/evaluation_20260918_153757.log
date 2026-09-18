@@ -1,0 +1,52 @@
+2026-09-18 15:37:57,200 | INFO | ================================================================================
+2026-09-18 15:37:57,200 | INFO | SYSTEM INFORMATION
+2026-09-18 15:37:57,200 | INFO | ================================================================================
+2026-09-18 15:37:57,217 | INFO | Operating System: Linux-7.0.0-30-generic-x86_64-with-glibc2.39
+2026-09-18 15:37:57,218 | INFO | Python Version: 3.9.25
+2026-09-18 15:37:57,218 | INFO | PyTorch Version: 2.8.0+cu128
+2026-09-18 15:37:57,218 | INFO | CUDA Available: True
+2026-09-18 15:37:57,218 | INFO | CUDA Version: 12.8
+2026-09-18 15:37:57,243 | INFO | GPU Count: 2
+2026-09-18 15:37:57,253 | INFO | GPU 0: NVIDIA GeForce RTX 3070
+2026-09-18 15:37:57,253 | INFO | GPU 0 Total Memory: 7.66 GB
+2026-09-18 15:37:57,253 | INFO | GPU 1: NVIDIA GeForce RTX 3070
+2026-09-18 15:37:57,253 | INFO | GPU 1 Total Memory: 7.65 GB
+2026-09-18 15:37:57,253 | INFO | Total Physical RAM: 15.54 GB
+2026-09-18 15:37:57,254 | INFO | Available Physical RAM: 7.23 GB
+2026-09-18 15:37:57,254 | INFO | Used Physical RAM: 8.32 GB
+2026-09-18 15:37:57,254 | INFO | Physical RAM Usage: 53.50%
+2026-09-18 15:37:57,254 | INFO | ================================================================================
+2026-09-18 15:37:57,254 | INFO | VALIDATING FILE PATHS
+2026-09-18 15:37:57,254 | INFO | ================================================================================
+2026-09-18 15:37:57,254 | INFO | Project Root: /home/ezio-gpu/Documents/Vinith/MMDetection_2
+2026-09-18 15:37:57,254 | INFO | MMDetection Root: /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection
+2026-09-18 15:37:57,254 | INFO | Config File: /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py
+2026-09-18 15:37:57,254 | INFO | Checkpoint File: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/epoch_25.pth
+2026-09-18 15:37:57,254 | INFO | Output Directory: /home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluation_results
+2026-09-18 15:37:57,254 | INFO | All required paths are valid.
+2026-09-18 15:37:57,254 | INFO | ================================================================================
+2026-09-18 15:37:57,254 | INFO | STARTING MODEL EVALUATION
+2026-09-18 15:37:57,254 | INFO | ================================================================================
+2026-09-18 15:37:57,254 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:37:57,254 | INFO | MEMORY STATUS: Before Runner Creation
+2026-09-18 15:37:57,254 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:37:57,255 | INFO | Physical RAM Used: 8.32 GB / 15.54 GB
+2026-09-18 15:37:57,255 | INFO | Physical RAM Usage: 53.50%
+2026-09-18 15:37:57,255 | INFO | GPU: NVIDIA GeForce RTX 3070
+2026-09-18 15:37:57,255 | INFO | GPU Allocated Memory: 0.00 GB
+2026-09-18 15:37:57,255 | INFO | GPU Reserved Memory: 0.00 GB
+2026-09-18 15:37:57,255 | INFO | GPU Maximum Allocated Memory: 0.00 GB
+2026-09-18 15:37:57,255 | INFO | ================================================================================
+2026-09-18 15:37:57,255 | INFO | LOADING MMDETECTION CONFIGURATION
+2026-09-18 15:37:57,255 | INFO | ================================================================================
+2026-09-18 15:37:57,288 | INFO | Configuration loaded successfully.
+2026-09-18 15:37:57,288 | WARNING | Removing imported pathlib.Path from MMEngine config.
+2026-09-18 15:37:57,288 | ERROR | Evaluation failed with error: __delitem__
+Traceback (most recent call last):
+  File "/home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluate_gpu_model.py", line 488, in main
+    run_evaluation()
+  File "/home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluate_gpu_model.py", line 373, in run_evaluation
+    cfg = load_evaluation_config()
+  File "/home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluate_gpu_model.py", line 291, in load_evaluation_config
+    del cfg["Path"]
+AttributeError: __delitem__

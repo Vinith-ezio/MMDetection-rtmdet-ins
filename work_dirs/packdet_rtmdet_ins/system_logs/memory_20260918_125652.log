@@ -1,0 +1,38 @@
+[2026-09-18 12:56:52] Memory monitor started
+[2026-09-18 12:56:52] RAM used=7.65 GB, RAM available=7.90 GB, RAM usage=49.2%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:56:52] GPU memory:
+0, NVIDIA GeForce RTX 3070, 573, 8192
+1, NVIDIA GeForce RTX 3070, 459, 8192
+[2026-09-18 12:57:22] RAM used=8.39 GB, RAM available=7.16 GB, RAM usage=54.0%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:57:22] GPU memory:
+0, NVIDIA GeForce RTX 3070, 3458, 8192
+1, NVIDIA GeForce RTX 3070, 334, 8192
+[2026-09-18 12:57:52] RAM used=8.53 GB, RAM available=7.02 GB, RAM usage=54.9%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:57:52] GPU memory:
+0, NVIDIA GeForce RTX 3070, 3458, 8192
+1, NVIDIA GeForce RTX 3070, 324, 8192
+[2026-09-18 12:58:22] RAM used=8.53 GB, RAM available=7.01 GB, RAM usage=54.9%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:58:22] GPU memory:
+0, NVIDIA GeForce RTX 3070, 4414, 8192
+1, NVIDIA GeForce RTX 3070, 324, 8192
+[2026-09-18 12:58:52] RAM used=8.17 GB, RAM available=7.37 GB, RAM usage=52.6%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:58:52] GPU memory:
+0, NVIDIA GeForce RTX 3070, 5852, 8192
+1, NVIDIA GeForce RTX 3070, 328, 8192
+[2026-09-18 12:59:22] RAM used=8.46 GB, RAM available=7.08 GB, RAM usage=54.4%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:59:22] GPU memory:
+0, NVIDIA GeForce RTX 3070, 5886, 8192
+1, NVIDIA GeForce RTX 3070, 303, 8192
+[2026-09-18 12:59:52] RAM used=8.53 GB, RAM available=7.01 GB, RAM usage=54.9%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:59:52] GPU memory:
+0, NVIDIA GeForce RTX 3070, 5886, 8192
+1, NVIDIA GeForce RTX 3070, 302, 8192
+[2026-09-18 13:00:22] RAM used=8.56 GB, RAM available=6.99 GB, RAM usage=55.1%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 13:00:22] GPU memory:
+0, NVIDIA GeForce RTX 3070, 5886, 8192
+1, NVIDIA GeForce RTX 3070, 299, 8192
+[2026-09-18 13:00:52] RAM used=8.61 GB, RAM available=6.93 GB, RAM usage=55.4%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 13:00:52] GPU memory:
+0, NVIDIA GeForce RTX 3070, 5886, 8192
+1, NVIDIA GeForce RTX 3070, 299, 8192
+[2026-09-18 13:01:08] Memory monitor stopped

@@ -1,0 +1,10 @@
+[2026-09-18 12:51:41] Starting RTMDet-Ins training
+[2026-09-18 12:51:41] Project root: /home/ezio-gpu/Documents/Vinith/MMDetection_2
+[2026-09-18 12:51:41] MMDetection root: /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection
+[2026-09-18 12:51:41] Config file: /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py
+[2026-09-18 12:51:41] Training log: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/system_logs/training_20260918_125141.log
+[2026-09-18 12:51:41] Memory log: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/system_logs/memory_20260918_125141.log
+[2026-09-18 12:51:41] Training command:
+[2026-09-18 12:51:41] /home/ezio-gpu/miniconda3/envs/gpu/bin/python /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection/tools/train.py /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py --work-dir /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins
+[2026-09-18 12:51:47] Training launcher error: I/O operation on closed file.
+[2026-09-18 12:51:47] Memory monitor stopped

@@ -1,0 +1,24 @@
+[2026-09-18 12:12:20] Starting RTMDet-Ins training
+[2026-09-18 12:12:20] Project root: /home/ezio-gpu/Documents/Vinith/MMDetection_2
+[2026-09-18 12:12:20] MMDetection root: /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection
+[2026-09-18 12:12:20] Config file: /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py
+[2026-09-18 12:12:20] Training log: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/system_logs/training_20260918_121220.log
+[2026-09-18 12:12:20] Memory log: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/system_logs/memory_20260918_121220.log
+[2026-09-18 12:12:20] Training command:
+[2026-09-18 12:12:20] /home/ezio-gpu/miniconda3/envs/gpu/bin/python /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection/tools/train.py /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py --work-dir /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins
+Traceback (most recent call last):
+  File "/home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection/tools/train.py", line 121, in <module>
+    main()
+  File "/home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection/tools/train.py", line 68, in main
+    cfg = Config.fromfile(args.config)
+  File "/home/ezio-gpu/miniconda3/envs/gpu/lib/python3.9/site-packages/mmengine/config/config.py", line 494, in fromfile
+    raise e
+  File "/home/ezio-gpu/miniconda3/envs/gpu/lib/python3.9/site-packages/mmengine/config/config.py", line 492, in fromfile
+    cfg_dict, imported_names = Config._parse_lazy_import(filename)
+  File "/home/ezio-gpu/miniconda3/envs/gpu/lib/python3.9/site-packages/mmengine/config/config.py", line 1044, in _parse_lazy_import
+    base_modules = Config._get_base_modules(parsed_codes.body)
+  File "/home/ezio-gpu/miniconda3/envs/gpu/lib/python3.9/site-packages/mmengine/config/config.py", line 579, in _get_base_modules
+    raise ConfigParsingError(
+mmengine.config.utils.ConfigParsingError: The configuration file type in the inheritance chain must match the current configuration file type, either "lazy_import" or non-"lazy_import". You got this error since you use the syntax like `_base_ = "_base_"` in your config. You should use `with read_base(): ... to` mark the inherited config file. See more information in https://mmengine.readthedocs.io/en/latest/advanced_tutorials/config.html
+[2026-09-18 12:12:28] Training failed with return code: 1
+[2026-09-18 12:12:28] Memory monitor stopped

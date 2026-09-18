@@ -1,0 +1,5 @@
+[2026-09-18 12:12:20] Memory monitor started
+[2026-09-18 12:12:20] RAM used=7.85 GB, RAM available=7.69 GB, RAM usage=50.5%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:12:20] GPU memory:
+0, NVIDIA GeForce RTX 3070, 573, 8192
+1, NVIDIA GeForce RTX 3070, 476, 8192

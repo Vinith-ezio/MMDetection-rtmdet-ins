@@ -1,0 +1,96 @@
+2026-09-18 15:50:50,359 | INFO | ================================================================================
+2026-09-18 15:50:50,360 | INFO | SYSTEM INFORMATION
+2026-09-18 15:50:50,360 | INFO | ================================================================================
+2026-09-18 15:50:50,377 | INFO | Operating System: Linux-7.0.0-30-generic-x86_64-with-glibc2.39
+2026-09-18 15:50:50,377 | INFO | Python Version: 3.9.25
+2026-09-18 15:50:50,377 | INFO | PyTorch Version: 2.8.0+cu128
+2026-09-18 15:50:50,377 | INFO | CUDA Available: True
+2026-09-18 15:50:50,377 | INFO | CUDA Version: 12.8
+2026-09-18 15:50:50,404 | INFO | GPU Count: 2
+2026-09-18 15:50:50,417 | INFO | GPU 0: NVIDIA GeForce RTX 3070
+2026-09-18 15:50:50,417 | INFO | GPU 0 Total Memory: 7.66 GB
+2026-09-18 15:50:50,417 | INFO | GPU 1: NVIDIA GeForce RTX 3070
+2026-09-18 15:50:50,417 | INFO | GPU 1 Total Memory: 7.65 GB
+2026-09-18 15:50:50,418 | INFO | Total Physical RAM: 15.54 GB
+2026-09-18 15:50:50,418 | INFO | Available Physical RAM: 7.28 GB
+2026-09-18 15:50:50,418 | INFO | Used Physical RAM: 8.26 GB
+2026-09-18 15:50:50,418 | INFO | Physical RAM Usage: 53.10%
+2026-09-18 15:50:50,418 | INFO | ================================================================================
+2026-09-18 15:50:50,418 | INFO | VALIDATING FILE PATHS
+2026-09-18 15:50:50,418 | INFO | ================================================================================
+2026-09-18 15:50:50,418 | INFO | Project Root: /home/ezio-gpu/Documents/Vinith/MMDetection_2
+2026-09-18 15:50:50,418 | INFO | MMDetection Root: /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection
+2026-09-18 15:50:50,418 | INFO | Config File: /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py
+2026-09-18 15:50:50,418 | INFO | Checkpoint File: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/epoch_25.pth
+2026-09-18 15:50:50,418 | INFO | Output Directory: /home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluation_results
+2026-09-18 15:50:50,418 | INFO | All required paths are valid.
+2026-09-18 15:50:50,418 | INFO | ================================================================================
+2026-09-18 15:50:50,418 | INFO | STARTING MODEL EVALUATION
+2026-09-18 15:50:50,418 | INFO | ================================================================================
+2026-09-18 15:50:50,419 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:50,419 | INFO | MEMORY STATUS: Before Runner Creation
+2026-09-18 15:50:50,419 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:50,419 | INFO | Physical RAM Used: 8.26 GB / 15.54 GB
+2026-09-18 15:50:50,419 | INFO | Physical RAM Usage: 53.10%
+2026-09-18 15:50:50,419 | INFO | GPU: NVIDIA GeForce RTX 3070
+2026-09-18 15:50:50,419 | INFO | GPU Allocated Memory: 0.00 GB
+2026-09-18 15:50:50,419 | INFO | GPU Reserved Memory: 0.00 GB
+2026-09-18 15:50:50,419 | INFO | GPU Maximum Allocated Memory: 0.00 GB
+2026-09-18 15:50:50,419 | INFO | ================================================================================
+2026-09-18 15:50:50,419 | INFO | LOADING MMDETECTION CONFIGURATION
+2026-09-18 15:50:50,419 | INFO | ================================================================================
+2026-09-18 15:50:50,451 | INFO | Configuration loaded successfully.
+2026-09-18 15:50:50,451 | INFO | Evaluation device set to CUDA:0
+2026-09-18 15:50:50,451 | INFO | GPU selected: NVIDIA GeForce RTX 3070
+2026-09-18 15:50:50,451 | INFO | Checkpoint configured: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/epoch_25.pth
+2026-09-18 15:50:50,452 | INFO | Evaluation configuration summary saved to: /home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluation_results/evaluation_config_20260918_155050.json
+2026-09-18 15:50:50,452 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:50,452 | INFO | MEMORY STATUS: After Config Loading
+2026-09-18 15:50:50,452 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:50,452 | INFO | Physical RAM Used: 8.26 GB / 15.54 GB
+2026-09-18 15:50:50,452 | INFO | Physical RAM Usage: 53.10%
+2026-09-18 15:50:50,452 | INFO | GPU: NVIDIA GeForce RTX 3070
+2026-09-18 15:50:50,452 | INFO | GPU Allocated Memory: 0.00 GB
+2026-09-18 15:50:50,452 | INFO | GPU Reserved Memory: 0.00 GB
+2026-09-18 15:50:50,452 | INFO | GPU Maximum Allocated Memory: 0.00 GB
+2026-09-18 15:50:50,452 | INFO | Creating MMEngine Runner...
+2026-09-18 15:50:55,873 | INFO | MMEngine Runner created successfully.
+2026-09-18 15:50:55,874 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:55,874 | INFO | MEMORY STATUS: After Runner Creation
+2026-09-18 15:50:55,874 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:55,874 | INFO | Physical RAM Used: 8.63 GB / 15.54 GB
+2026-09-18 15:50:55,874 | INFO | Physical RAM Usage: 55.50%
+2026-09-18 15:50:55,874 | INFO | GPU: NVIDIA GeForce RTX 3070
+2026-09-18 15:50:55,874 | INFO | GPU Allocated Memory: 0.04 GB
+2026-09-18 15:50:55,874 | INFO | GPU Reserved Memory: 0.04 GB
+2026-09-18 15:50:55,874 | INFO | GPU Maximum Allocated Memory: 0.04 GB
+2026-09-18 15:50:55,874 | INFO | Loading checkpoint: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/epoch_25.pth
+2026-09-18 15:50:56,129 | INFO | Checkpoint loading completed in 0.25 seconds.
+2026-09-18 15:50:56,129 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:56,130 | INFO | MEMORY STATUS: After Checkpoint Loading
+2026-09-18 15:50:56,130 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:50:56,130 | INFO | Physical RAM Used: 8.67 GB / 15.54 GB
+2026-09-18 15:50:56,130 | INFO | Physical RAM Usage: 55.80%
+2026-09-18 15:50:56,130 | INFO | GPU: NVIDIA GeForce RTX 3070
+2026-09-18 15:50:56,130 | INFO | GPU Allocated Memory: 0.04 GB
+2026-09-18 15:50:56,130 | INFO | GPU Reserved Memory: 0.04 GB
+2026-09-18 15:50:56,130 | INFO | GPU Maximum Allocated Memory: 0.04 GB
+2026-09-18 15:50:56,130 | INFO | Starting test/evaluation process...
+2026-09-18 15:51:14,021 | INFO | Evaluation completed in 17.89 seconds.
+2026-09-18 15:51:14,021 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:51:14,021 | INFO | MEMORY STATUS: After Evaluation
+2026-09-18 15:51:14,021 | INFO | --------------------------------------------------------------------------------
+2026-09-18 15:51:14,021 | INFO | Physical RAM Used: 9.14 GB / 15.54 GB
+2026-09-18 15:51:14,021 | INFO | Physical RAM Usage: 58.80%
+2026-09-18 15:51:14,021 | INFO | GPU: NVIDIA GeForce RTX 3070
+2026-09-18 15:51:14,021 | INFO | GPU Allocated Memory: 0.04 GB
+2026-09-18 15:51:14,021 | INFO | GPU Reserved Memory: 4.65 GB
+2026-09-18 15:51:14,021 | INFO | GPU Maximum Allocated Memory: 0.60 GB
+2026-09-18 15:51:14,021 | INFO | ================================================================================
+2026-09-18 15:51:14,021 | INFO | EVALUATION COMPLETED
+2026-09-18 15:51:14,021 | INFO | ================================================================================
+2026-09-18 15:51:14,021 | INFO | Total Evaluation Time: 23.60 seconds
+2026-09-18 15:51:14,022 | INFO | Evaluation Results:
+2026-09-18 15:51:14,022 | INFO | {'coco/bbox_mAP': 0.537, 'coco/bbox_mAP_50': 0.799, 'coco/bbox_mAP_75': 0.613, 'coco/bbox_mAP_s': -1.0, 'coco/bbox_mAP_m': 0.422, 'coco/bbox_mAP_l': 0.55, 'coco/segm_mAP': 0.674, 'coco/segm_mAP_50': 0.771, 'coco/segm_mAP_75': 0.728, 'coco/segm_mAP_s': -1.0, 'coco/segm_mAP_m': 0.51, 'coco/segm_mAP_l': 0.698}
+2026-09-18 15:51:14,022 | INFO | Evaluation results saved to: /home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluation_results/evaluation_results_20260918_155050.json
+2026-09-18 15:51:14,022 | INFO | Evaluation log saved to: /home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluation_results/logs/evaluation_20260918_155050.log

@@ -1,0 +1,21 @@
+[2026-09-18 13:08:04] Starting RTMDet-Ins training
+[2026-09-18 13:08:04] Project root: /home/ezio-gpu/Documents/Vinith/MMDetection_2
+[2026-09-18 13:08:04] MMDetection root: /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection
+[2026-09-18 13:08:04] Config file: /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py
+[2026-09-18 13:08:04] Training log: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/system_logs/training_20260918_130804.log
+[2026-09-18 13:08:04] Memory log: /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/system_logs/memory_20260918_130804.log
+[2026-09-18 13:08:04] Training command:
+[2026-09-18 13:08:04] /home/ezio-gpu/miniconda3/envs/gpu/bin/python /home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection/tools/train.py /home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py --work-dir /home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins
+[2026-09-18 13:08:04] Launching MMDetection training...
+Traceback (most recent call last):
+  File "/home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection/tools/train.py", line 121, in <module>
+    main()
+  File "/home/ezio-gpu/Documents/Vinith/MMDetection_2/mmdetection/tools/train.py", line 110, in main
+    runner = Runner.from_cfg(cfg)
+  File "/home/ezio-gpu/miniconda3/envs/gpu/lib/python3.9/site-packages/mmengine/runner/runner.py", line 462, in from_cfg
+    runner = cls(
+  File "/home/ezio-gpu/miniconda3/envs/gpu/lib/python3.9/site-packages/mmengine/runner/runner.py", line 342, in __init__
+    raise ValueError(
+ValueError: val_dataloader, val_cfg, and val_evaluator should be either all None or not None, but got val_dataloader={'batch_size': 1, 'num_workers': 0, 'persistent_workers': False, 'drop_last': False, 'sampler': {'type': 'DefaultSampler', 'shuffle': False}, 'dataset': {'type': 'CocoDataset', 'data_root': '/home/ezio-gpu/Documents/Vinith/MMDetection_2/data/', 'ann_file': 'annotations/instances_validation.json', 'data_prefix': {'img': 'images/Validation/'}, 'test_mode': True, 'pipeline': [{'type': 'LoadImageFromFile', 'backend_args': None}, {'type': 'Resize', 'scale': (640, 640), 'keep_ratio': True}, {'type': 'Pad', 'size': (640, 640), 'pad_val': {'img': (114, 114, 114)}}, {'type': 'LoadAnnotations', 'with_bbox': True}, {'type': 'PackDetInputs', 'meta_keys': ('img_id', 'img_path', 'ori_shape', 'img_shape', 'scale_factor')}], 'backend_args': None, 'metainfo': {'classes': ('plastic_bottle', 'glass_bottle', 'can', 'jar', 'carton_beverage', 'tube')}}}, val_cfg=None, val_evaluator={'type': 'CocoMetric', 'ann_file': '/home/ezio-gpu/Documents/Vinith/MMDetection_2/data/annotations/instances_validation.json', 'metric': ['bbox', 'segm'], 'format_only': False, 'backend_args': None, 'proposal_nums': (100, 1, 10)}
+[2026-09-18 13:08:09] Training failed with return code: 1
+[2026-09-18 13:08:09] Training launcher finished

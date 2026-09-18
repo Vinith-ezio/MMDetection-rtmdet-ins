@@ -1,0 +1,31 @@
+2026-09-17 18:06:16 | INFO | ======================================================================
+2026-09-17 18:06:16 | INFO | CPU TRAINING MONITOR
+2026-09-17 18:06:16 | INFO | ======================================================================
+2026-09-17 18:06:16 | INFO | Project directory : E:\MMDetection_2
+2026-09-17 18:06:16 | INFO | MMDetection       : E:\MMDetection_2\mmdetection
+2026-09-17 18:06:16 | INFO | Config file       : E:\MMDetection_2\configs\packdet_rtmdet_ins.py
+2026-09-17 18:06:16 | INFO | Work directory    : E:\MMDetection_2\work_dirs\packdet_rtmdet_ins_cpu
+2026-09-17 18:06:16 | INFO | Monitor log       : E:\MMDetection_2\work_dirs\packdet_rtmdet_ins_cpu\monitor_logs\cpu_training.log
+2026-09-17 18:06:16 | INFO | Python version    : 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2026-09-17 18:06:16 | INFO | CPU logical cores : 16
+2026-09-17 18:06:16 | INFO | Total system RAM  : 15.73 GB
+2026-09-17 18:06:16 | INFO | Available RAM     : 4.32 GB
+2026-09-17 18:06:16 | INFO | Used RAM          : 11.42 GB
+2026-09-17 18:06:16 | INFO | RAM usage         : 72.60%
+2026-09-17 18:06:16 | INFO | ======================================================================
+2026-09-17 18:06:16 | INFO | Training command:
+2026-09-17 18:06:16 | INFO | "E:\MMdetection\.venv\Scripts\python.exe" "E:\MMDetection_2\mmdetection\tools\train.py" "E:\MMDetection_2\configs\packdet_rtmdet_ins.py" "--work-dir" "E:\MMDetection_2\work_dirs\packdet_rtmdet_ins_cpu"
+2026-09-17 18:06:16 | INFO | Starting CPU training...
+2026-09-17 18:06:16 | INFO | System monitoring interval: 5 seconds
+2026-09-17 18:06:17 | INFO | SYSTEM | CPU: 8.60% | RAM: 72.60% | Used RAM: 11.42 GB | Available RAM: 4.31 GB
+2026-09-17 18:06:17 | INFO | LAUNCHER PROCESS RAM: 16.82 MB
+2026-09-17 18:06:23 | INFO | SYSTEM | CPU: 2.10% | RAM: 73.80% | Used RAM: 11.61 GB | Available RAM: 4.13 GB
+2026-09-17 18:06:23 | INFO | LAUNCHER PROCESS RAM: 16.83 MB
+2026-09-17 18:06:29 | INFO | SYSTEM | CPU: 8.70% | RAM: 73.90% | Used RAM: 11.63 GB | Available RAM: 4.10 GB
+2026-09-17 18:06:29 | INFO | LAUNCHER PROCESS RAM: 16.83 MB
+2026-09-17 18:06:35 | INFO | SYSTEM | CPU: 18.40% | RAM: 73.60% | Used RAM: 11.58 GB | Available RAM: 4.15 GB
+2026-09-17 18:06:35 | INFO | LAUNCHER PROCESS RAM: 16.83 MB
+2026-09-17 18:06:38 | ERROR | TRAINING FAILED WITH EXIT CODE: 1
+2026-09-17 18:06:38 | INFO | Total training duration: 0.36 minutes
+2026-09-17 18:06:38 | INFO | Training monitor stopped.
+2026-09-17 18:06:38 | INFO | Log file: E:\MMDetection_2\work_dirs\packdet_rtmdet_ins_cpu\monitor_logs\cpu_training.log

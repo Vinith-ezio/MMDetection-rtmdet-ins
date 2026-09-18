@@ -1,0 +1,10 @@
+Train: images/Train
+Validation: images/Validation
+names:
+  0: plastic_bottle
+  1: glass_bottle
+  2: can
+  3: jar
+  4: carton_beverage
+  5: tube
+path: .

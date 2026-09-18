@@ -1,0 +1,9 @@
+{
+    "config_file": "/home/ezio-gpu/Documents/Vinith/MMDetection_2/configs/packdet_rtmdet_ins.py",
+    "checkpoint_file": "/home/ezio-gpu/Documents/Vinith/MMDetection_2/work_dirs/packdet_rtmdet_ins/epoch_25.pth",
+    "device": "cuda:0",
+    "work_dir": "/home/ezio-gpu/Documents/Vinith/MMDetection_2/evaluation_results",
+    "cuda_available": true,
+    "gpu_count": 2,
+    "timestamp": "20260918_155050"
+}

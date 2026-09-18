@@ -1,0 +1,37 @@
+[2026-09-18 12:43:09] Memory monitor started
+[2026-09-18 12:43:09] RAM used=7.54 GB, RAM available=8.01 GB, RAM usage=48.5%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:43:09] GPU memory:
+0, NVIDIA GeForce RTX 3070, 573, 8192
+1, NVIDIA GeForce RTX 3070, 436, 8192
+[2026-09-18 12:43:39] RAM used=9.68 GB, RAM available=5.86 GB, RAM usage=62.3%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:43:39] GPU memory:
+0, NVIDIA GeForce RTX 3070, 3458, 8192
+1, NVIDIA GeForce RTX 3070, 475, 8192
+[2026-09-18 12:44:09] RAM used=10.06 GB, RAM available=5.49 GB, RAM usage=64.7%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:44:09] GPU memory:
+0, NVIDIA GeForce RTX 3070, 3458, 8192
+1, NVIDIA GeForce RTX 3070, 448, 8192
+[2026-09-18 12:44:39] RAM used=9.89 GB, RAM available=5.65 GB, RAM usage=63.6%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:44:39] GPU memory:
+0, NVIDIA GeForce RTX 3070, 4414, 8192
+1, NVIDIA GeForce RTX 3070, 442, 8192
+[2026-09-18 12:45:09] RAM used=9.67 GB, RAM available=5.87 GB, RAM usage=62.2%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:45:09] GPU memory:
+0, NVIDIA GeForce RTX 3070, 4800, 8192
+1, NVIDIA GeForce RTX 3070, 438, 8192
+[2026-09-18 12:45:39] RAM used=10.02 GB, RAM available=5.52 GB, RAM usage=64.5%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:45:39] GPU memory:
+0, NVIDIA GeForce RTX 3070, 4834, 8192
+1, NVIDIA GeForce RTX 3070, 442, 8192
+[2026-09-18 12:46:09] RAM used=10.06 GB, RAM available=5.49 GB, RAM usage=64.7%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:46:09] GPU memory:
+0, NVIDIA GeForce RTX 3070, 4834, 8192
+1, NVIDIA GeForce RTX 3070, 475, 8192
+[2026-09-18 12:46:39] RAM used=10.11 GB, RAM available=5.43 GB, RAM usage=65.0%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:46:39] GPU memory:
+0, NVIDIA GeForce RTX 3070, 4834, 8192
+1, NVIDIA GeForce RTX 3070, 433, 8192
+[2026-09-18 12:47:09] RAM used=10.16 GB, RAM available=5.38 GB, RAM usage=65.4%, Process RSS=0.01 GB, Swap used=0.00 GB, Swap usage=0.0%
+[2026-09-18 12:47:09] GPU memory:
+0, NVIDIA GeForce RTX 3070, 4834, 8192
+1, NVIDIA GeForce RTX 3070, 462, 8192
